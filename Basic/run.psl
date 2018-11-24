@@ -1,2 +1,0 @@
-g++ ./1014.cpp
-cat ./in.dat | ./a.exe
