@@ -29,7 +29,7 @@ bool is_shift(const char &c)
     return c == '+';
 }
 
-char to_upper_or_stay(const char &c)
+char to_upper_if_not(const char &c)
 {
     if (is_lower(c))
     {
@@ -45,10 +45,14 @@ int main()
 {
     string broken;
     string input;
-    cin >> broken >> input;
+    getline(cin, broken);
+    // 这儿不能 cin >> broken >> broken_set;
+    //因为broken可能有空的情况没有考虑到
+    cin >> input;
     unordered_set<char> broken_set;
 
     bool shift_broken = false;
+    bool space_broken = false;
 
     for (const auto &c: broken)
     {
@@ -68,7 +72,7 @@ int main()
         {
             continue;
         }
-        if (broken_set.find(to_upper_or_stay(c)) != broken_set.cend())
+        if (broken_set.find(to_upper_if_not(c)) != broken_set.cend())
         {
             continue;
         }
