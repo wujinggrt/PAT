@@ -1,3 +1,7 @@
+/*
+第一行可能会有输入空的情况，使用getline(cin, broken)
+*/
+
 #include <iostream>
 #include <string>
 #include <cstdio>

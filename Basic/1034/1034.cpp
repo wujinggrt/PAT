@@ -1,3 +1,7 @@
+/*
+分母为1，输出分子
+*/
+
 #include <cstdio>
 using namespace std;
 
