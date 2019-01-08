@@ -22,7 +22,7 @@ int main() {
         cin >> reports[i].id >> reports[i].c >> reports[i].m >> reports[i].e;
         reports[i].a = (reports[i].c + reports[i].m + reports[i].e) / 3;
     }
-    unordered_map<string, vector<pair<int, string>>> ranking;
+    unordered_map<string, pair<int, string>> ranking;
     sort(reports.begin(), reports.end(), [] (const auto &l, const auto &r) {
         return l.a > r.a;
     });
@@ -31,7 +31,7 @@ int main() {
         if (i != 0 && reports[i].a != reports[i - 1].a) {
             rank_tmp = i + 1;
         }
-        ranking[reports[i].id] = vector<pair<int, string>>{make_pair(rank_tmp, "A")};
+        ranking[reports[i].id] = make_pair(rank_tmp, "A");
     }
     sort(reports.begin(), reports.end(), [] (const auto &l, const auto &r) {
         return l.c > r.c;
@@ -42,7 +42,9 @@ int main() {
             rank_tmp = i + 1;
         }
         auto it = ranking.find(reports[i].id);
-        it->second.emplace_back(rank_tmp, "C");
+        if (it->second.first > rank_tmp) {
+            it->second = make_pair(rank_tmp, "C");
+        }
     }
     sort(reports.begin(), reports.end(), [] (const auto &l, const auto &r) {
         return l.m > r.m;
@@ -53,7 +55,9 @@ int main() {
             rank_tmp = i + 1;
         }
         auto it = ranking.find(reports[i].id);
-        it->second.emplace_back(rank_tmp, "M");
+        if (it->second.first > rank_tmp) {
+            it->second = make_pair(rank_tmp, "M");
+        }
     }
     sort(reports.begin(), reports.end(), [] (const auto &l, const auto &r) {
         return l.e > r.e;
@@ -64,17 +68,16 @@ int main() {
             rank_tmp = i + 1;
         }
         auto it = ranking.find(reports[i].id);
-        it->second.emplace_back(rank_tmp, "E");
+        if (it->second.first > rank_tmp) {
+            it->second = make_pair(rank_tmp, "E");
+        }
     }
     for (int i = 0; i < m; ++i) {
         string checking;
         cin >> checking;
         auto it = ranking.find(checking);
         if (it != ranking.end()) {
-            auto m = min_element(it->second.begin(), it->second.end(), [] (const auto &l, const auto &r) {
-                return l.first < r.first;
-            });
-            printf("%d %s\n", m->first, m->second.c_str());
+            printf("%d %s\n", it->second.first, it->second.second.c_str());
         } else {
             printf("N/A\n");
         }
