@@ -7,6 +7,7 @@ With C++ 11 and STL.
 |1018|Public Bike Management|[C++](./Advanced/1018/s.cpp)|dfs, dijkstra + dfs|\|
 |1019|General Palindromic Number|[C++](./Advanced/1019/s.cpp)|进制转换|\|
 |1020|Tree Traversals|[C++](./Advanced/1020/s.cpp)|后序、中序遍历还原二叉树，层序遍历|\|
+|1021|Deepest Root|[C++](./Advanced/1020)|DFS(穷举与两次查找)，并查集|\|
 
 
 ## Basic

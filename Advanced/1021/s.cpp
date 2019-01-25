@@ -27,8 +27,8 @@ void dfs() {
 
 void dfs_aux(uint32_t u) {
     color[u] = 1;
-    for (int32_t v = 0; v < color.size(); ++v) {
-        if (graph[u][v] == 1 && color[v] == 0) {
+    for (const auto& v: graph[u]) {
+        if (color[v] == 0) {
             dfs_aux(v);
         }
     }
@@ -56,8 +56,8 @@ void dfs_longest() {
 
 void dfs_longest_aux(uint32_t u) {
     color[u] = 1;
-    for (int32_t v = 0; v < color.size(); ++v) {
-        if (graph[u][v] == 1 && color[v] == 0) {
+    for (const auto& v: graph[u]) {
+        if (color[v] == 0) {
             auto tmp = tmp_height;
             ++tmp_height;
             if (tmp_height > max_height) {
@@ -69,6 +69,7 @@ void dfs_longest_aux(uint32_t u) {
                 flag = true;
             }
             dfs_longest_aux(v);
+            // backtracking
             tmp_height = tmp;
         }
     }
@@ -77,13 +78,17 @@ void dfs_longest_aux(uint32_t u) {
 
 int main() {
     cin >> n;
-    graph = vector<vector<int32_t>> (n, vector<int32_t> (n, 0));
+    if (n == 1) {
+        printf("1\n");
+        return 0;
+    }
+    graph = vector<vector<int32_t>> (n);
     for (int32_t i = 0; i < n - 1; ++i) {
         int32_t from;
         int32_t to;
         cin >> from >> to;
-        graph[from - 1][to - 1] = 1;
-        graph[to - 1][from - 1] = 1;
+        graph[from - 1].push_back(to - 1);
+        graph[to - 1].push_back(from - 1);
     }
     dfs();
     if (components > 1) {
