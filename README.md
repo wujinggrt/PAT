@@ -13,6 +13,7 @@ With C++ 11 and STL.
 |1021|Deepest Root|[C++](./Advanced/1021)|DFS(穷举与两次查找)，并查集|\|
 |1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|\|
 |1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|\|
+|1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|\|
 
 ### 总结
 
