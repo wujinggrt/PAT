@@ -2,13 +2,21 @@
 With C++ 11 and STL.
 
 ## Advanced
+
+### List
+
 |No.|Title|File|Description|Tag|
 |---|---|---|---|---|
-|1018|Public Bike Management|[C++](./Advanced/1018/s.cpp)|dfs, dijkstra + dfs|\|
-|1019|General Palindromic Number|[C++](./Advanced/1019/s.cpp)|进制转换|\|
-|1020|Tree Traversals|[C++](./Advanced/1020/s.cpp)|后序、中序遍历还原二叉树，层序遍历|\|
+|1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|\|
+|1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|\|
+|1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|\|
 |1021|Deepest Root|[C++](./Advanced/1021)|DFS(穷举与两次查找)，并查集|\|
+|1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|\|
+|1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|\|
 
+### 总结
+
+1. Adjacent Matrix在某些情况可能内存超出限制。
 
 ## Basic
 
