@@ -31,6 +31,7 @@ int main() {
 			sequence_sum[i] = max_temp;
 			max_temp = 0;
 			left[i] = left_temp;
+			// left从下一个位置开始
 			left_temp = i + 1;
 		} else {
 			sequence_sum[i] = max_temp;

@@ -22,29 +22,25 @@ struct Window {
     Window(int32_t t) : total{t} {}
 };
 
-auto cmp_person = [] (Person& l, Person& r) {
-    return l.total > r.total;
-};
-
-auto cmp_window = [] (Window& l, Window& r) {
+auto cmp = [] (auto& l, auto& r) {
     return l.total > r.total;
 };
 
 using window_queue = priority_queue<
                                     Window, 
                                     vector<Window>, 
-                                    decltype(cmp_window)>;
+                                    decltype(cmp)>;
 
 using person_queue = priority_queue<
                                     Person, 
                                     vector<Person>, 
-                                    decltype(cmp_person)>;
+                                    decltype(cmp)>;
 
 int main() {
     const int32_t start_time = 8 * 3600;
     const int32_t end_time = 17 * 3600 + 1;
-    person_queue persons(cmp_person);
-    window_queue windows(cmp_window);
+    person_queue persons(cmp);
+    window_queue windows(cmp);
     int n, k;
     cin >> n >> k;
     for (int i = 0; i < k; ++i) {

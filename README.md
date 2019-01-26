@@ -7,6 +7,7 @@ With C++ 11 and STL.
 
 |No.|Title|File|Description|Tag|
 |---|---|---|---|---|
+|1017|Queueing at Bank|[C++](./Advanced/1017)|优先队列，时间用秒表达|\|
 |1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|\|
 |1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|\|
 |1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|\|
@@ -14,10 +15,12 @@ With C++ 11 and STL.
 |1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|\|
 |1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|\|
 |1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|\|
+|1025|PAT Ranking|[C++](./Advanced/1025)|排序|\|
 
 ### 总结
 
 1. Adjacent Matrix在某些情况可能内存超出限制。
+2. 时间->用秒方便
 
 ## Basic
 

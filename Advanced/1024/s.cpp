@@ -2,22 +2,6 @@
 #include <algorithm>
 using namespace std;
 
-bool is_pali(const string& s) {
-    auto it_forward = begin(s);
-    auto it_backward = end(s) - 1;
-    for ( ; ; ) {
-        if (it_forward >= it_backward) {
-            return true;
-        }
-        if (*it_forward != *it_backward) {
-            return false;
-        } else {
-            ++it_forward;
-            --it_backward;
-        }
-    }
-}
-
 string str_plus(const string& l, const string& r) {
     string ret;
     ret.reserve(l.size() + 1);
