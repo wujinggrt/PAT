@@ -16,6 +16,7 @@ With C++ 11 and STL.
 |1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|\|
 |1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|\|
 |1025|PAT Ranking|[C++](./Advanced/1025)|排序|\|
+|1026|Table Tennis|[C++](./Advanced/1026)|时间表达为秒，桌子开始服务的时间|分析问题，分解问题要求较高，需要逻辑和清晰的思路，转化问题|
 
 ### 总结
 
