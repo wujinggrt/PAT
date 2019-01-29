@@ -7,21 +7,21 @@ With C++ 11 and STL.
 
 |No.|Title|File|Description|Tag|
 |---|---|---|---|---|
-|1017|Queueing at Bank|[C++](./Advanced/1017)|优先队列，时间用秒表达|\|
-|1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|\|
-|1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|\|
-|1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|\|
-|1021|Deepest Root|[C++](./Advanced/1021)|DFS(穷举与两次查找)，并查集|\|
-|1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|\|
-|1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|\|
-|1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|\|
-|1025|PAT Ranking|[C++](./Advanced/1025)|排序|\|
+|1017|Queueing at Bank|[C++](./Advanced/1017)|优先队列，时间用秒表达|-|
+|1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|-|
+|1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|-|
+|1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|-|
+|1021|Deepest Root|[C++](./Advanced/1021)|DFS(穷举与两次查找)，并查集|-|
+|1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|-|
+|1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|-|
+|1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|-|
+|1025|PAT Ranking|[C++](./Advanced/1025)|排序|-|
 |1026|Table Tennis|[C++](./Advanced/1026)|时间表达为秒，桌子开始服务的时间|分析问题，分解问题要求较高，需要逻辑和清晰的思路，转化问题|
-|1027|Colors in Mars|[C++](./Advanced/1027)|简单的进制转化|\|
-|1028|List Sorting|[C++](./Advanced/1028)|std::sort|\|
-|1029|Median|[C++](./Advanced/1029)|内存，cin/cout的效率低，问题转换|\|
-|1030|Travel Plan|[C++](./Advanced/1030)|dijkstra+dfs, or dfs，1018同类|\|
-|1031|Hello World for U|[C++](./Advanced/1031)|字符处理|\|
+|1027|Colors in Mars|[C++](./Advanced/1027)|简单的进制转化|-|
+|1028|List Sorting|[C++](./Advanced/1028)|std::sort|-|
+|1029|Median|[C++](./Advanced/1029)|内存，cin/cout的效率低，问题转换|-|
+|1030|Travel Plan|[C++](./Advanced/1030)|dijkstra+dfs, or dfs，1018同类|-|
+|1031|Hello World for U|[C++](./Advanced/1031)|字符处理|-|
 
 ### 总结
 
