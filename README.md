@@ -17,6 +17,11 @@ With C++ 11 and STL.
 |1024|Palindromic Number|[C++](./Advanced/1024)|string类型的数字加法运算|\|
 |1025|PAT Ranking|[C++](./Advanced/1025)|排序|\|
 |1026|Table Tennis|[C++](./Advanced/1026)|时间表达为秒，桌子开始服务的时间|分析问题，分解问题要求较高，需要逻辑和清晰的思路，转化问题|
+|1027|Colors in Mars|[C++](./Advanced/1027)|简单的进制转化|\|
+|1028|List Sorting|[C++](./Advanced/1028)|std::sort|\|
+|1029|Median|[C++](./Advanced/1029)|内存，cin/cout的效率低，问题转换|\|
+|1030|Travel Plan|[C++](./Advanced/1030)|dijkstra+dfs, or dfs，1018同类|\|
+|1031|Hello World for U|[C++](./Advanced/1031)|字符处理|\|
 
 ### 总结
 
