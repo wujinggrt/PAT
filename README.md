@@ -28,6 +28,11 @@ With C++ 11 and STL.
 |1035|Password|[C++](./Advanced/1035)|简单的字符串替换|-|
 |1036|Boys vs Girls|[C++](./Advanced/1036)|简单数据处理|-|
 |1037|Magic Coupon|[C++](./Advanced/1037)|排序，取舍|-|
+|1038|Recover the Smallest Number|[C++](./Advanced/1038)|字符串的排序，ab < ba，问题转化，观察关系|-|
+|1039|Course List for Student|[C++](./Advanced/1039)|map,set,cin效率bottomneck|-|
+|1040|Longest Symmetric String|[C++](./Advanced/1040)|最长回文|-|
+|1041|Be Unique|[C++](./Advanced/1041)|map + flag|-|
+|1042|Shuffling Machine|[C++](./Advanced/1042)|map的使用|-|
 
 ### 总结
 
