@@ -22,6 +22,12 @@ With C++ 11 and STL.
 |1029|Median|[C++](./Advanced/1029)|内存，cin/cout的效率低，问题转换|-|
 |1030|Travel Plan|[C++](./Advanced/1030)|dijkstra+dfs, or dfs，1018同类|-|
 |1031|Hello World for U|[C++](./Advanced/1031)|字符处理|-|
+|1032|Sharing|[C++](./Advanced/1032)|hash map，寻址|-|
+|1033|To Fill or Not to Fill|[C++](./Advanced/1033)|贪心算法|-|
+|1034|Password|[C++](./Advanced/1034)|map的信息来建立Graph，30分||
+|1035|Password|[C++](./Advanced/1035)|简单的字符串替换|-|
+|1036|Boys vs Girls|[C++](./Advanced/1036)|简单数据处理|-|
+|1037|Magic Coupon|[C++](./Advanced/1037)|排序，取舍|-|
 
 ### 总结
 
