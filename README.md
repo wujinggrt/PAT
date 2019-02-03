@@ -24,20 +24,26 @@ With C++ 11 and STL.
 |1031|Hello World for U|[C++](./Advanced/1031)|字符处理|-|
 |1032|Sharing|[C++](./Advanced/1032)|hash map，寻址|-|
 |1033|To Fill or Not to Fill|[C++](./Advanced/1033)|贪心算法|-|
-|1034|Password|[C++](./Advanced/1034)|map的信息来建立Graph，30分||
+|1034|Head of a Gang|[C++](./Advanced/1034)|map的信息来建立Graph，30分||
 |1035|Password|[C++](./Advanced/1035)|简单的字符串替换|-|
 |1036|Boys vs Girls|[C++](./Advanced/1036)|简单数据处理|-|
 |1037|Magic Coupon|[C++](./Advanced/1037)|排序，取舍|-|
 |1038|Recover the Smallest Number|[C++](./Advanced/1038)|字符串的排序，ab < ba，问题转化，观察关系|-|
-|1039|Course List for Student|[C++](./Advanced/1039)|map,set,cin效率bottomneck|-|
+|1039|Course List for Student|[C++](./Advanced/1039)|map,set,cin效率bottleneck|-|
 |1040|Longest Symmetric String|[C++](./Advanced/1040)|最长回文|-|
 |1041|Be Unique|[C++](./Advanced/1041)|map + flag|-|
 |1042|Shuffling Machine|[C++](./Advanced/1042)|map的使用|-|
+|1043|Is It a Binary Search Tree|[C++](./Advanced/1043)|二叉树，unique_ptr，还原|-|
+|1044|Shopping in Mars|[C++](./Advanced/1044)|子序列|-|
+|1045|Favorite Color Stripe|[C++](./Advanced/1045)|最长共同子序列，DP|-|
+|1046|Shortest Distance|[C++](./Advanced/1046)|距离总和，O(n)|-|
+|1047|Student List for Course|[C++](./Advanced/1047)|unordered_map + vector + sort|-|
 
 ### 总结
 
 1. Adjacent Matrix在某些情况可能内存超出限制。
 2. 时间->用秒方便
+3. 解析二叉树最好使用struct Node {ptr l, r;};
 
 ## Basic
 
