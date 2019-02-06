@@ -38,12 +38,17 @@ With C++ 11 and STL.
 |1045|Favorite Color Stripe|[C++](./Advanced/1045)|最长共同子序列，DP|-|
 |1046|Shortest Distance|[C++](./Advanced/1046)|距离总和，O(n)|-|
 |1047|Student List for Course|[C++](./Advanced/1047)|unordered_map + vector + sort|-|
+|1048|Find Coins|[C++](./Advanced/1048)|two sum, map|-|
+|1049|Counting Ones|[C++](./Advanced/1049)|two sum, map|-|
+|1050|String Subtraction|[C++](./Advanced/1050)|unordered_set|-|
+|1051|Pop Sequence|[C++](./Advanced/1051)|模拟stack，还原，找规律，升序和降序|-|
 
 ### 总结
 
 1. Adjacent Matrix在某些情况可能内存超出限制。
 2. 时间->用秒方便
 3. 解析二叉树最好使用struct Node {ptr l, r;};
+4. 30分的题需要找规律，暴力穷举解决不了。
 
 ## Basic
 
