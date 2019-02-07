@@ -42,6 +42,10 @@ With C++ 11 and STL.
 |1049|Counting Ones|[C++](./Advanced/1049)|two sum, map|-|
 |1050|String Subtraction|[C++](./Advanced/1050)|unordered_set|-|
 |1051|Pop Sequence|[C++](./Advanced/1051)|模拟stack，还原，找规律，升序和降序|-|
+|1052|Linked List Sorting|[C++](./Advanced/1052)|map来建立链表，遍历后ptr to node压栈，sort|-|
+|1053|Path of Equal Weight|[C++](./Advanced/1053)|tree,dfs,回溯和剪枝，递归lambda|-|
+|1054|The Dominant Color|[C++](./Advanced/1054)|map，cin bottleneck|-|
+|1055|The World's Richest|[C++](./Advanced/1055)|选择性排序，超时|-|
 
 ### 总结
 
