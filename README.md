@@ -46,6 +46,9 @@ With C++ 11 and STL.
 |1053|Path of Equal Weight|[C++](./Advanced/1053)|tree,dfs,回溯和剪枝，递归lambda|-|
 |1054|The Dominant Color|[C++](./Advanced/1054)|map，cin bottleneck|-|
 |1055|The World's Richest|[C++](./Advanced/1055)|选择性排序，超时|-|
+|1056|Mice and Rice|[C++](./Advanced/1056)|队列，排名|-|
+|1057|Stack|[C++](./Advanced/1057)|multiset, or 树状数组|-|
+|1058|Stack|[C++](./Advanced/1058)|进制|-|
 
 ### 总结
 
