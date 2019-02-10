@@ -48,7 +48,8 @@ With C++ 11 and STL.
 |1055|The World's Richest|[C++](./Advanced/1055)|选择性排序，超时|-|
 |1056|Mice and Rice|[C++](./Advanced/1056)|队列，排名|-|
 |1057|Stack|[C++](./Advanced/1057)|multiset, or 树状数组|-|
-|1058|Stack|[C++](./Advanced/1058)|进制|-|
+|1058|Hogwarts|[C++](./Advanced/1058)|进制|-|
+|1059|Prime Factors|[C++](./Advanced/1059)|质数，因式分解，遍历|-|
 
 ### 总结
 
