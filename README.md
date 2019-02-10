@@ -50,6 +50,7 @@ With C++ 11 and STL.
 |1057|Stack|[C++](./Advanced/1057)|multiset, or 树状数组|-|
 |1058|Hogwarts|[C++](./Advanced/1058)|进制|-|
 |1059|Prime Factors|[C++](./Advanced/1059)|质数，因式分解，遍历|-|
+|1060|Are They Equal|[C++](./Advanced/1060)|数字通过字符处理|-|
 
 ### 总结
 
