@@ -51,6 +51,12 @@ With C++ 11 and STL.
 |1058|Hogwarts|[C++](./Advanced/1058)|进制|-|
 |1059|Prime Factors|[C++](./Advanced/1059)|质数，因式分解，遍历|-|
 |1060|Are They Equal|[C++](./Advanced/1060)|数字通过字符处理|-|
+|1061|Dating|[C++](./Advanced/1061)|position finding|-|
+|1062|Talent and Virtue|[C++](./Advanced/1062)|排序|-|
+|1063|Set Similarity|[C++](./Advanced/1063)|set的使用|-|
+|1064|Complete Binary Search Tree|[C++](./Advanced/1064)|完全二叉搜索树建立，左右子树node个数|-|
+|1065|A+B and C (64bit)|[C++](./Advanced/1065)|overflow的case来判断|-|
+|1066|Root of AVL Tree|[C++](./Advanced/1066)|avl,unique_ptr<Node>|-|
 
 ### 总结
 
