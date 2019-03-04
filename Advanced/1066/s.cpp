@@ -34,21 +34,21 @@ int32_t height(Node* node) {
 }
 
 void rotate_left(unique_ptr<Node>& node) {
-    unique_ptr<Node> left_tmp = std::move(node->left);
-    node->left = std::move(left_tmp->right);
+    unique_ptr<Node> left_subtree = std::move(node->left);
+    node->left = std::move(left_subtree->right);
     node->height = max(height(node->left.get()), height(node->right.get())) + 1;
-    swap(left_tmp->right, node);
-    swap(node, left_tmp);
+    swap(left_subtree->right, node);
+    swap(node, left_subtree);
     node->height = max(height(node->left.get()), height(node->right.get())) + 1;
 }
 
 void rotate_right(unique_ptr<Node>& node) {
-    unique_ptr<Node> right_tmp = std::move(node->right);
-    node->right = std::move(right_tmp->left);
+    unique_ptr<Node> right_subtree = std::move(node->right);
+    node->right = std::move(right_subtree->left);
     node->height = max(height(node->left.get()), height(node->right.get())) + 1;
     // 让node重新指向根
-    swap(right_tmp->left, node);
-    swap(node, right_tmp);
+    swap(right_subtree->left, node);
+    swap(node, right_subtree);
     node->height = max(height(node->left.get()), height(node->right.get())) + 1;
 }
 

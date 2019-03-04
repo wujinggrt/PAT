@@ -57,6 +57,10 @@ With C++ 11 and STL.
 |1064|Complete Binary Search Tree|[C++](./Advanced/1064)|完全二叉搜索树建立，左右子树node个数|-|
 |1065|A+B and C (64bit)|[C++](./Advanced/1065)|overflow的case来判断|-|
 |1066|Root of AVL Tree|[C++](./Advanced/1066)|avl,unique_ptr<Node>|-|
+|1067|Sort with Swap(0, i)|[C++](./Advanced/1067)|贪心，空间换时间，下标|-|
+|1068|Find More Coins|[C++](./Advanced/1068)|dfs + 剪枝,背包-dp|有点难度，有价值，一个思路，降序排列，能够解决输出的问题|
+|1069|The Black Hole of Numbers|[C++](./Advanced/1069)|字符串数字减法|-|
+|1070|Mooncake|[C++](./Advanced/1070)|简单贪心，easy|-|
 
 ### 总结
 
@@ -64,6 +68,7 @@ With C++ 11 and STL.
 2. 时间->用秒方便
 3. 解析二叉树最好使用struct Node {ptr l, r;};
 4. 30分的题需要找规律，暴力穷举解决不了。
+5. 01背包问题。
 
 ## Basic
 
