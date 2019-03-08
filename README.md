@@ -61,6 +61,9 @@ With C++ 11 and STL.
 |1068|Find More Coins|[C++](./Advanced/1068)|dfs + 剪枝,背包-dp|有点难度，有价值，一个思路，降序排列，能够解决输出的问题|
 |1069|The Black Hole of Numbers|[C++](./Advanced/1069)|字符串数字减法|-|
 |1070|Mooncake|[C++](./Advanced/1070)|简单贪心，easy|-|
+|1071|Speech Patterns|[C++](./Advanced/1071)|简单排序|-|
+|1072|Gas Station|[C++](./Advanced/1072)|dijkstra + for|dijkstra的典型用法|
+|1073|Scientific Notation|[C++](./Advanced/1073)|字符串处理|-|
 
 ### 总结
 
