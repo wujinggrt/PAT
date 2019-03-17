@@ -64,6 +64,12 @@ With C++ 11 and STL.
 |1071|Speech Patterns|[C++](./Advanced/1071)|简单排序|-|
 |1072|Gas Station|[C++](./Advanced/1072)|dijkstra + for|dijkstra的典型用法|
 |1073|Scientific Notation|[C++](./Advanced/1073)|字符串处理|-|
+|1074|Reversing Linked List|[C++](./Advanced/1074)|unordered_map + reverse|-|
+|1075|PAT Judge|[C++](./Advanced/1075)|复杂排序，审题|-|
+|1076|Forwards on Weibo|[C++](./Advanced/1076)|BFS + flag|BFS典型，不过题目简单|
+|1077|Kuchiguse|[C++](./Advanced/1077)|尾部字符串匹配|-|
+|1078|Hash|[C++](./Advanced/1078)|平方探测法|-|
+|1079|Total Sales of Supply Chain|[C++](./Advanced/1079)|dfs|-|
 
 ### 总结
 
