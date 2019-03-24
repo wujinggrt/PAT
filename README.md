@@ -10,7 +10,7 @@ With C++ 11 and STL.
 |1017|Queueing at Bank|[C++](./Advanced/1017)|优先队列，时间用秒表达|-|
 |1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|-|
 |1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|-|
-|1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|-|
+|1020|Tree Traversals|[C++](./Advanced/1020)|后序、中序遍历还原二叉树，层序遍历|二叉树还原|
 |1021|Deepest Root|[C++](./Advanced/1021)|DFS(穷举与两次查找)，并查集|-|
 |1022|Digital Library|[C++](./Advanced/1022)|map + set的简单使用，lambda替代函数|-|
 |1023|Have Fun with Numbers|[C++](./Advanced/1023)|string手动计算乘法，进位可能多1|-|
@@ -70,6 +70,14 @@ With C++ 11 and STL.
 |1077|Kuchiguse|[C++](./Advanced/1077)|尾部字符串匹配|-|
 |1078|Hash|[C++](./Advanced/1078)|平方探测法|-|
 |1079|Total Sales of Supply Chain|[C++](./Advanced/1079)|dfs|-|
+|1080|Graduate Admission|[C++](./Advanced/1080)|复杂排序，队列|-|
+|1081|Rational Sum|[C++](./Advanced/1081)|gcd, lcm,递归函数轻松搞定|-|
+|1082|Read Number in Chinese|[C++](./Advanced/1082)|字符串处理|-|
+|1083|List Grades|[C++](./Advanced/1083)|排序|-|
+|1084|Broken Keyboard|[C++](./Advanced/1084)|map走三趟|-|
+|1085|Perfect Sequence|[C++](./Advanced/1085)|排序，搜索，不是dp|-|
+|1086|Tree Traversals Again|[C++](./Advanced/1086)|树的先序、中序来还原，然后后序遍历|树的经典操作|
+|1087|All Roads Lead to Rome|[C++](./Advanced/1087)|Dij + dfs|Dij和回溯的用法|
 
 ### 总结
 
