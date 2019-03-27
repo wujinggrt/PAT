@@ -78,6 +78,14 @@ With C++ 11 and STL.
 |1085|Perfect Sequence|[C++](./Advanced/1085)|排序，搜索，不是dp|-|
 |1086|Tree Traversals Again|[C++](./Advanced/1086)|树的先序、中序来还原，然后后序遍历|树的经典操作|
 |1087|All Roads Lead to Rome|[C++](./Advanced/1087)|Dij + dfs|Dij和回溯的用法|
+|1088|Rational Arithmetic|[C++](./Advanced/1088)|逻辑，乘法后结果可能太大越界|-|
+|1089|Insert or Merge|[C++](./Advanced/1089)|判断归并和插入，分块的排序|-|
+|1090|Highest Price in Supply Chain|[C++](./Advanced/1090)|dfs + 记录，使用map记录，避免重复访问|-|
+|1091|Acute Stroke|[C++](./Advanced/1091)|三维数组的 BFS, 上下左右前后留个方向|-|
+|1092|To Buy or Not to Buy|[C++](./Advanced/1092)|哈希表，四次遍历搞定|-|
+|1093|Count PAT's|[C++](./Advanced/1093)|问题转化，A 左右两边 P, T 的数量|-|
+|1094|The Largest Generation|[C++](./Advanced/1094)|树的层序遍历，边界条件|考虑 0 的情况|
+|1095|Cars on Campus|[C++](./Advanced/1095)|复杂排序，问题转化|思路清奇|
 
 ### 总结
 
