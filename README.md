@@ -86,6 +86,11 @@ With C++ 11 and STL.
 |1093|Count PAT's|[C++](./Advanced/1093)|问题转化，A 左右两边 P, T 的数量|-|
 |1094|The Largest Generation|[C++](./Advanced/1094)|树的层序遍历，边界条件|考虑 0 的情况|
 |1095|Cars on Campus|[C++](./Advanced/1095)|复杂排序，问题转化|思路清奇|
+|1096|Consecutive Factors|[C++](./Advanced/1096)|连乘的数能否被整除|-|
+|1097|Deduplication on a Linked List|[C++](./Advanced/1097)|哈希 map or set 的应用|-|
+|1098|Insertion or Heap Sort|[C++](./Advanced/1098)|heap，类似插入和归并|-|
+|1099|Build A Binary Search Tree|[C++](./Advanced/1099)|先序遍历 + 层序|-|
+|1100|Mars Numbers|[C++](./Advanced/1100)|逻辑，对 0 的判断|-|
 
 ### 总结
 
