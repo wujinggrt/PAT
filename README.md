@@ -89,16 +89,26 @@ With C++ 11 and STL.
 |1096|Consecutive Factors|[C++](./Advanced/1096)|连乘的数能否被整除|-|
 |1097|Deduplication on a Linked List|[C++](./Advanced/1097)|哈希 map or set 的应用|-|
 |1098|Insertion or Heap Sort|[C++](./Advanced/1098)|heap，类似插入和归并|-|
-|1099|Build A Binary Search Tree|[C++](./Advanced/1099)|先序遍历 + 层序|-|
+|1099|Build A Binary Search Tree|[C++](./Advanced/1099)|先序遍历 + 层序|值的复习|
 |1100|Mars Numbers|[C++](./Advanced/1100)|逻辑，对 0 的判断|-|
+|1101|Quick Sort|[C++](./Advanced/1101)|partition 的操作，使用两次预处理，保存大小关系换时间|dp|
+|1102|Invert a Binary Tree|[C++](./Advanced/1102)|二叉树，找到 root，记录 parent|-|
+|1103|Integer Factorization|[C++](./Advanced/1103)|dfs, if 考虑所有情况，测试点 2|-|
+|1104|Sum of Number Segments|[C++](./Advanced/1104)|逻辑题|-|
+|1105|Spiral Matrix|[C++](./Advanced/1105)|逻辑题，设置前进方向|-|
+|1106|Lowest Price in Supply Chain|[C++](./Advanced/1106)|Adjacent List|by vector< vector< int>> chains(n);|
+|1148|Werewolf - Simple Version|[C++](./Advanced/1148)|穷举，逻辑，审题|-|
+|1149|Dangerous Goods Packaging|[C++](./Advanced/1149)|直接 map + set 就可以完成|-|
+|1150|Travelling Salesman Problem|[C++](./Advanced/1150)|图 + set，逻辑题|-|
 
-### 总结
+### 总结 | trick
 
 1. Adjacent Matrix在某些情况可能内存超出限制。
 2. 时间->用秒方便
 3. 解析二叉树最好使用struct Node {ptr l, r;};
 4. 30分的题需要找规律，暴力穷举解决不了。
 5. 01背包问题。
+6. 可以使用 1, -1 相乘来替换 if 判断。
 
 ## Basic
 
