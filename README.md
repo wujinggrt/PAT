@@ -6,7 +6,7 @@ With C++ 11 and STL.
 ### List
 
 |No.|Title|File|Description|Tag|
-|---|---|---|---|---|
+|:-:|:-:|:-:|:-:|:-:|
 |1017|Queueing at Bank|[C++](./Advanced/1017)|优先队列，时间用秒表达|-|
 |1018|Public Bike Management|[C++](./Advanced/1018)|dfs, dijkstra + dfs|-|
 |1019|General Palindromic Number|[C++](./Advanced/1019)|进制转换|-|
@@ -97,6 +97,12 @@ With C++ 11 and STL.
 |1104|Sum of Number Segments|[C++](./Advanced/1104)|逻辑题|-|
 |1105|Spiral Matrix|[C++](./Advanced/1105)|逻辑题，设置前进方向|-|
 |1106|Lowest Price in Supply Chain|[C++](./Advanced/1106)|Adjacent List|by vector< vector< int>> chains(n);|
+|1107|Social Clusters|[C++](./Advanced/1107)|并查集|并查集|
+|1108|Finding Average|[C++](./Advanced/1108)|逻辑题，字符串判断|-|
+|1109|Group Photo|[C++](./Advanced/1109)|排序 + 逻辑|-|
+|1110|Complete Binary Tree|[C++](./Advanced/1110)|一位数组 + 记下标数 index|-|
+|1111|Online Map|[C++](./Advanced/1111)|DIJ + DFS|-|
+|1112|Stucked Keyboard|[C++](./Advanced/1112)|逻辑题|-|
 |1148|Werewolf - Simple Version|[C++](./Advanced/1148)|穷举，逻辑，审题|-|
 |1149|Dangerous Goods Packaging|[C++](./Advanced/1149)|直接 map + set 就可以完成|-|
 |1150|Travelling Salesman Problem|[C++](./Advanced/1150)|图 + set，逻辑题|-|
