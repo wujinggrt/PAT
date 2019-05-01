@@ -1,3 +1,7 @@
+# 努力学习和工作
+
+有效工作时间拉满。
+
 # PAT
 With C++ 11 and STL.
 
@@ -103,6 +107,16 @@ With C++ 11 and STL.
 |1110|Complete Binary Tree|[C++](./Advanced/1110)|一位数组 + 记下标数 index|-|
 |1111|Online Map|[C++](./Advanced/1111)|DIJ + DFS|-|
 |1112|Stucked Keyboard|[C++](./Advanced/1112)|逻辑题|-|
+|1113|Integer Set Partition|[C++](./Advanced/1113)|超级水的排序题|-|
+|1114|Family Property|[C++](./Advanced/1114)|并查集 + 多次遍历|-|
+|1115|Counting Nodes in a BST|[C++](./Advanced/1115)|逻辑题，简单，BST的插入操作|-|
+|1116|Come on! Let's C |[C++](./Advanced/1116)|逻辑题|-|
+|1117|Eddington Number|[C++](./Advanced/1117)|逻辑题|-|
+|1118|Birds in Forest|[C++](./Advanced/1118)|常规的并查集，需要仔细|-|
+|1119|Pre- and Post-order Traversals|[C++](./Advanced/1119)|先序和后序创建子树|-|
+|1120|Friend Numbers|[C++](./Advanced/1120)|简单的处理，map + set的使用|-|
+|1121|Damn Single|[C++](./Advanced/1121)|简单的处理，set的使用|-|
+|1122|Hamiltonian Cycle|[C++](./Advanced/1122)|图的连通性和逻辑|-|
 |1148|Werewolf - Simple Version|[C++](./Advanced/1148)|穷举，逻辑，审题|-|
 |1149|Dangerous Goods Packaging|[C++](./Advanced/1149)|直接 map + set 就可以完成|-|
 |1150|Travelling Salesman Problem|[C++](./Advanced/1150)|图 + set，逻辑题|-|
