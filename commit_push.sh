@@ -1,5 +1,6 @@
 #!/bin/bash
-read -p "Commit message:"
+
+read -p "Enter commit message:"
 git add .
 git commit -m "${REPLY}"
 git gc
