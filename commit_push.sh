@@ -2,6 +2,6 @@
 
 read -p "Enter commit message:"
 git add .
-git commit -m "${REPLY}"
+git commit -am "${REPLY}"
 git gc
 git push origin master

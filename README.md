@@ -104,7 +104,7 @@ With C++ 11 and STL.
 |1107|Social Clusters|[C++](./Advanced/1107)|并查集|并查集|
 |1108|Finding Average|[C++](./Advanced/1108)|逻辑题，字符串判断|-|
 |1109|Group Photo|[C++](./Advanced/1109)|排序 + 逻辑|-|
-|1110|Complete Binary Tree|[C++](./Advanced/1110)|一位数组 + 记下标数 index|-|
+|1110|Complete Binary Tree|[C++](./Advanced/1110)|一位数组 + 记下标数 index|完全二叉树判定|
 |1111|Online Map|[C++](./Advanced/1111)|DIJ + DFS|-|
 |1112|Stucked Keyboard|[C++](./Advanced/1112)|逻辑题|-|
 |1113|Integer Set Partition|[C++](./Advanced/1113)|超级水的排序题|-|
@@ -117,6 +117,10 @@ With C++ 11 and STL.
 |1120|Friend Numbers|[C++](./Advanced/1120)|简单的处理，map + set的使用|-|
 |1121|Damn Single|[C++](./Advanced/1121)|简单的处理，set的使用|-|
 |1122|Hamiltonian Cycle|[C++](./Advanced/1122)|图的连通性和逻辑|-|
+|1123|Is It a Complete AVL Tree|[C++](./Advanced/1123)|AVL|AVL|
+|1124|Raffle for Weibo Followers|[C++](./Advanced/1124)|set 的水体|-|
+|1125|Chain the Ropes|[C++](./Advanced/1125)|简单的排序，贪心|-|
+|1126|Eulerian Path|[C++](./Advanced/1126)|出入度，dfs|-|
 |1148|Werewolf - Simple Version|[C++](./Advanced/1148)|穷举，逻辑，审题|-|
 |1149|Dangerous Goods Packaging|[C++](./Advanced/1149)|直接 map + set 就可以完成|-|
 |1150|Travelling Salesman Problem|[C++](./Advanced/1150)|图 + set，逻辑题|-|
