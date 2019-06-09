@@ -121,9 +121,6 @@ With C++ 11 and STL.
 |1124|Raffle for Weibo Followers|[C++](./Advanced/1124)|set 的水体|-|
 |1125|Chain the Ropes|[C++](./Advanced/1125)|简单的排序，贪心|-|
 |1126|Eulerian Path|[C++](./Advanced/1126)|出入度，dfs|-|
-|1127|ZigZagging on a Tree|[C++](./Advanced/1127)|还原二叉树，层序遍历和递归|-|
-|1128|N Queens Puzzle|[C++](./Advanced/1128)|逻辑|-|
-|1129|Recommendation System|[C++](./Advanced/1129)|set + map|-|
 |1148|Werewolf - Simple Version|[C++](./Advanced/1148)|穷举，逻辑，审题|-|
 |1149|Dangerous Goods Packaging|[C++](./Advanced/1149)|直接 map + set 就可以完成|-|
 |1150|Travelling Salesman Problem|[C++](./Advanced/1150)|图 + set，逻辑题|-|
@@ -171,4 +168,3 @@ With C++ 11 and STL.
 |**1028**|人口普查|[C++](./Basic/1028.cpp)| \ ||
 |**1029**|旧键盘|[C++](./Basic/1029/1029.cpp)| \ ||
 |**1030**|完美数列|[C++](./Basic/1030/1030.cpp)| \ |运行效率、分块查询|
-

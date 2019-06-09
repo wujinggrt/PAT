@@ -1,6 +1,6 @@
 #!/bin/bash
 
-clang++ --std=c++11  ./s.cpp
+clang++ --std=c++11 -g ./s.cpp
 echo "compiled!"
 echo "testing:"
 cat i.dat | ./a.out
